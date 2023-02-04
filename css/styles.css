@@ -39,6 +39,13 @@ body {
 	color: var(--dark-color);
 }
 
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
 /* ______ HEADER _________*/
 
 .header-container {
@@ -99,4 +106,57 @@ body {
 .header-btn:hover {
 	color: var(--dark-color);
 	background-color: var(--secondary-bg-color);
+}
+
+
+/* ______ HERO _________*/
+
+.hero {
+	padding-top: 42px;
+	padding-bottom: 64px;
+}
+.hero .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero-title {
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 1.07;
+	margin-bottom: 24px;
+
+	/* line-height: calc(60 / 56); */
+}
+
+.hero-text {
+	font-size: 18px;
+	line-height: 1.55;
+	margin-bottom: 40px;
+	width: 457px;
+}
+
+.hero-btn {
+	width: 100px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--light-color);
+	background-color: var(--dark-color);
+	border: none;
+	border-radius: 32px;
+}
+
+.hero-desc {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.7;
+	width: 236px;
+	margin-left: 20px;
+}
+
+.button-text {
+	display: flex;
+	align-items: center;
 }
