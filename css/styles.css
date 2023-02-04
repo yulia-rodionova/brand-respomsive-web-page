@@ -190,3 +190,46 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 }
+
+
+.descr {
+	padding: 96px 0;
+	background-color:var(--dark-color);
+}
+.descr .container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.descr-title {
+	margin-bottom: 16px;
+	width: 453px;
+font-weight: 900;
+font-size: 24px;
+line-height: 1.33;
+letter-spacing: -0.1px;
+color: var(--light-color);
+}
+.descr-text {
+	margin-bottom: 16px;
+	width: 453px;
+	font-size: 16px;
+	line-height: 1.5;
+	color:var(--light-color);
+}
+.descr-list {
+	padding-left: 20px;
+	list-style: disc;
+}
+.descr-item {
+	
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--light-color);
+}
+.descr-item:not(:last-child) {
+	margin-bottom: 8px;
+}
+
