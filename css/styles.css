@@ -58,6 +58,7 @@ body {
 	padding-right: 15px;
 	margin: 0 auto;
 }
+
 .logo {
 	font-weight: 900;
 	font-size: 25px;
@@ -65,18 +66,21 @@ body {
 	text-transform: uppercase;
 	color: var(--dark-color);
 }
+
 .logo-tm {
 	font-weight: 900;
 	font-size: 8px;
 	line-height: 1.12;
 	text-transform: uppercase;
 }
+
 .nav-list {
 	display: flex;
 	gap: 24px;
 }
-.nav-list-item {
-}
+
+.nav-list-item {}
+
 .nav-list-link {
 	display: inline-block;
 	padding: 38px 0;
@@ -87,8 +91,9 @@ body {
 	letter-spacing: 0.1px;
 	color: var(--dark-color);
 }
-.link {
-}
+
+.link {}
+
 .header-btn {
 	padding: 12px 24px;
 	border: none;
@@ -102,6 +107,7 @@ body {
 	color: var(--light-color);
 	background-color: var(--dark-color);
 }
+
 .header-btn:focus,
 .header-btn:hover {
 	color: var(--dark-color);
@@ -115,11 +121,13 @@ body {
 	padding-top: 42px;
 	padding-bottom: 64px;
 }
+
 .hero .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .hero-title {
 	font-weight: 900;
 	font-size: 56px;
@@ -159,4 +167,26 @@ body {
 .button-text {
 	display: flex;
 	align-items: center;
+}
+
+.advantages {
+	padding-top: 70px;
+	padding-bottom: 64px;
+	background-color: var(--secondary-bg-color);
+}
+
+.advantages-list {
+	display: flex;
+	gap: 30px;
+}
+
+.advantages-title {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 22px;
+}
+
+.advantages-text {
+	font-size: 16px;
+	line-height: 1.5;
 }
