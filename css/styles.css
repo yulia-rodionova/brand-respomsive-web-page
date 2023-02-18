@@ -312,3 +312,57 @@ body {
     justify-content:space-between;
     align-items: flex-end;
 }
+
+.action {
+	padding-top: 192px;
+	padding-bottom: 192px;
+	background-image: url(../images/bg-img.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.action-pre-title {
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	margin-bottom: 12px;
+	color: var(--light-color);
+}
+
+.action-title {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: -0.5px;
+	color: var(--light-color);
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+}
+
+.action-button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.1px;
+	padding: 8px 16px;
+	color: var(--dark-color);
+	background-color: var(--light-color);
+	border-radius: 24px;
+	margin: 0 auto;
+	border: none;
+	transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.action-button:is(:hover, :focus) {
+	background-color: var(--dark-color);
+	color: var(--light-color);
+}
